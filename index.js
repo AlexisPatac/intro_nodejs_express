@@ -42,7 +42,7 @@ app.post('/items', (req, res) => {
     res.json(items);
 });
 
-// Start the serverr
+// Start the server
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
